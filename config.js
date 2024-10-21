@@ -9,16 +9,16 @@ if (fs.existsSync('config.env')) {
 
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
-const HANDLERS = process.env.HANDLER || "^";
-const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
-const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
-const DISABLE_PM = process.env.DISABLE_PM  || "false";
-const PM_BLOCK = process.env.PM_BLOCK || "false";
+const HANDLERS = process.env.HANDLER || ".";
+const SESSION_ID = process.env.SESSION_ID || "A-S-W-I-N-S-P-A-R-K-Y:6691ee9ccb5b7ed8ba6ae5de76ae049d";
+const SUDO = process.env.SUDO || '27656319889';
+const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "false";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
+const DISABLE_PM = process.env.DISABLE_PM  || "true";
+const PM_BLOCK = process.env.PM_BLOCK || "true";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
 const READ_MESSAGES = process.env.READ_MESSAGES || "false";
-const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
+const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;Tristan;https://i.imgur.com/r3GZeiX.jpeg";
 const URL = process.env.URL || "https://www.instagram.com/sparky.drip";
 const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
